@@ -1,0 +1,76 @@
+body {
+    font-family: sans-serif;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+form {
+    margin: 0 auto;
+    background-color: white;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+fieldset {
+    border: 2px solid #2980b9;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+legend {
+    text-align: center;
+    font-weight: bold;
+    color: #2980b9;
+    padding: 0 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+input[type="text"], select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #219150;
+}
+
+.back {
+    background-color: #2980b9;
+    border: transparent;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.back a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back:hover {
+    background-color: #1c5980;
+}

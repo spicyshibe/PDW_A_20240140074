@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Biodata</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Formulir Biodata Diri</legend>
+            <p>
+                <label for="nama">Nama:</label><br>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+            </p>
+            <p>
+                <label for="alamat">Alamat:</label><br>
+                <input type="text" id="alamat" name="alamat" placeholder="Masukkan alamat Anda" required>
+            </p>
+            <p>
+                <label>Jenis Kelamin:</label><br>
+                <input type="radio" id="laki" name="jk" value="laki-laki" checked>
+                <label for="laki">Laki-Laki</label>
+                <input type="radio" id="perempuan" name="jk" value="perempuan">
+                <label for="perempuan">Perempuan</label>
+            </p>
+            <p>
+                <label>Keahlian & Minat IT:</label><br>
+                <input type="checkbox" id="web" name="keahlian" value="Web">
+                <label for="web">Web Development</label><br>
+                <input type="checkbox" id="desktop" name="keahlian" value="Desktop">
+                <label for="desktop">Desktop Application (C#)</label><br>
+                <input type="checkbox" id="cyber" name="keahlian" value="Cybersecurity">
+                <label for="cyber">Cybersecurity & Networking</label>
+            </p>
+            <p>
+                <label for="kota">Kota Asal (Kampus):</label><br>
+                <select id="kota" name="kota">
+                    <option value="Yogyakarta">Yogyakarta</option>
+                    <option value="Semarang">Semarang</option>
+                    <option value="Bandung">Bandung</option>
+                    <option value="Jakarta">Jakarta</option>
+                </select>
+            </p>
+            <p>
+                <label for="alasan">Ceritakan Singkat Tentang Diri Anda:</label><br>
+                <textarea id="alasan" name="alasan" rows="5" cols="40" placeholder="Tulis jawaban Anda di sini..."></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Submit Biodata">
+            </p>
+        </fieldset>
+    </form>
+    
+    <div style="text-align: center; margin-top: 20px;">
+        <button class="back"><a href="index.html">Kembali ke Home</a></button>
+    </div>
+</body>
+</html>
